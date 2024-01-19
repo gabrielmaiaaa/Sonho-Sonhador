@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float velocity = 10.0f;
-    public float rotation = 90.0f;
+    public static float rotation = 1.0f;
     
     void Start()
     {
@@ -29,6 +29,6 @@ public class Movement : MonoBehaviour
 
         transform.Translate(dir * Time.deltaTime);
 
-        transform.Rotate(new Vector3(0, mouseX * rotation * Time.deltaTime, 0));
+        transform.Rotate(new Vector3(0, mouseX * rotation, 0));
     }
 }
