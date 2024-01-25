@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Cube
   Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   DefaultSprite: {fileID: 0}
-  ItemCollected: 1
+  ItemCollected: 0
