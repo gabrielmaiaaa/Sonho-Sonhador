@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tela de Morte.unity
     guid: cfa8239614ced62429a5263e07aa7573
+  - enabled: 1
+    path: Assets/Scenes/CapuchoPlayground/TestTPScene1.unity
+    guid: c47b8d3affe8fdb4b9bc71b1ca31b1e5
+  - enabled: 1
+    path: Assets/Scenes/CapuchoPlayground/TestTPScene2.unity
+    guid: 86868e5382046af4697cdee7b36d3212
+  - enabled: 1
+    path: Assets/Scenes/CapuchoPlayground/TestTPScene3.unity
+    guid: 12de98f3c7ee09f44b59597db8c75da3
   m_configObjects: {}
