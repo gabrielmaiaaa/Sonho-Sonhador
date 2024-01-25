@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSO: {fileID: 11400000, guid: 624c4edb063493b4599388fe900f5c55, type: 2}
+  _canDelete: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

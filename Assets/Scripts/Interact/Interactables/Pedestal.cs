@@ -12,8 +12,8 @@ public class Pedestal : MonoBehaviour, IInteractable
         if (!itemSO.ItemCollected)
             return;
 
-        Debug.Log("test");
-        Instantiate(itemGO, transform.position, Quaternion.identity);
+        var clone = Instantiate(itemGO, itemTransform.position, itemTransform.rotation);
+        Destroy(this);
 
     }
 

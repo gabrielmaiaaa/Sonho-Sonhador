@@ -19,7 +19,7 @@ public class Interactor : MonoBehaviour
 
            foreach(var c in colliders)
            {
-                c.GetComponent<IInteractable>().Interact();
+                c.GetComponent<IInteractable>()?.Interact();
            }
 
         }

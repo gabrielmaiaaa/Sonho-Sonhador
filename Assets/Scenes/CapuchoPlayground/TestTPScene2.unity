@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSO: {fileID: 11400000, guid: 47abf17e068721a409aa9c32fc4a1a51, type: 2}
+  _canDelete: 1
 --- !u!1001 &681606054
 PrefabInstance:
   m_ObjectHideFlags: 0
