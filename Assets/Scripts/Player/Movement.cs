@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
 
         if(Input.GetKey(KeyCode.LeftShift)){
             velocity = 20.0f;
