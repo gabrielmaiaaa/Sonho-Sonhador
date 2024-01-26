@@ -12344,7 +12344,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 460724501025520645, guid: bd90d421f7c79f94f873f6f88ab9b1bd, type: 3}
       propertyPath: velocity
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4194393454083765267, guid: bd90d421f7c79f94f873f6f88ab9b1bd, type: 3}
       propertyPath: m_UseGravity
