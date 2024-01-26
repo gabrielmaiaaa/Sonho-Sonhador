@@ -44,10 +44,13 @@ public class ItensCollected : MonoBehaviour
     {
         for(int i = 0; i < transform.childCount; i++)
         {
-            if (!itensSO[i].ItemCollected)
-                continue;
-
             var child = transform.GetChild(i);
+            if (!itensSO[i].ItemCollected)
+            {
+                child.GetComponent<Image>().sprite = itensSO[i].DefaultSprite;
+                continue;
+            }
+
             child.GetComponent<Image>().sprite = itensSO[i].Sprite;
         }
     }
