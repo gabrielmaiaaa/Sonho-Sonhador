@@ -6,14 +6,10 @@ public class Movement : MonoBehaviour
 {
     public float velocity = 7.0f;
     public static float rotation = 1.0f;
-    private Rigidbody rb;
-
-    private Camera cam;
-
+    
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        
     }
 
     // Update is called once per frame
@@ -26,25 +22,8 @@ public class Movement : MonoBehaviour
 
         Vector3 dir = new Vector3(x, 0, y) * velocity;
 
-       
-
         transform.Translate(dir * Time.deltaTime);
 
-        transform.Rotate(new Vector3(0f, mouseX, 0f));
-    
-    }
-
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody>();
-        cam = Camera.main;
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Parede")
-        {
-            rb.AddForce(Vector3.back*1);
-        }
+        transform.Rotate(new Vector3(0, mouseX, 0));
     }
 }
