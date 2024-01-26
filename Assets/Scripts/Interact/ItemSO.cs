@@ -11,10 +11,11 @@ public class ItemSO : ScriptableObject
     public Sprite DefaultSprite;
 
     public bool ItemCollected = false;
+    public bool ItemPlaced = false;
 
     public void SetItemCollected(bool value) => ItemCollected = value;
 
-    public void ResetSOValues() { ItemCollected = false; } //script no menu, foreach in Resources.
+    public void ResetSOValues() { ItemCollected = false; ItemPlaced = false; }
 
 
 }
