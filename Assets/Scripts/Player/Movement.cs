@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float velocity = 10.0f;
+    public float velocity = 7.0f;
     public static float rotation = 1.0f;
     private Rigidbody rb;
 
@@ -21,12 +21,6 @@ public class Movement : MonoBehaviour
         float y = Input.GetAxis("Vertical");
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
-
-        if(Input.GetKey(KeyCode.LeftShift)){
-            velocity = 10.0f;
-        }else{
-            velocity = 5.0f;
-        }
 
         Vector3 dir = new Vector3(x, 0, y) * velocity;
 
