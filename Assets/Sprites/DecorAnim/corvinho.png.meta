@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -40,21 +40,21 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -108,18 +108,258 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: corvinho_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab1dd8c9d8751e43a87c33ec2d50cb3
+      internalID: -1446307949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dcc0af1fac82a41aded0414997ac0e
+      internalID: -1627166994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5536e1be915d9c4dae37d50f9a66f4c
+      internalID: -1678400577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663cb17202d03a7489dc0a2f889558f7
+      internalID: -209228066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51182d7891a47f1408719f4a5e50d5fd
+      internalID: -142969171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f826bc6bf4f7e4ba09fdf087721834
+      internalID: 938022549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0484966c6da5f6d48a43fe0597debe89
+      internalID: 746470855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corvinho_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c47e460a893f944b2b3192a1615b63
+      internalID: -870270360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      corvinho_0: -1446307949
+      corvinho_1: -1627166994
+      corvinho_2: -1678400577
+      corvinho_3: -209228066
+      corvinho_4: -142969171
+      corvinho_5: 938022549
+      corvinho_6: 746470855
+      corvinho_7: -870270360
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
