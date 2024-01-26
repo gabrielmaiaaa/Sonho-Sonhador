@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
-  m_Name: PisoLedAnimation
+  m_Name: CoolerAnimated
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 1330489316, guid: be18fe50d30159342b51c669fe1391d8, type: 3}
-  - {fileID: -1150011784, guid: be18fe50d30159342b51c669fe1391d8, type: 3}
-  - {fileID: -914141403, guid: be18fe50d30159342b51c669fe1391d8, type: 3}
-  - {fileID: -883051364, guid: be18fe50d30159342b51c669fe1391d8, type: 3}
-  m_MinSpeed: 3
-  m_MaxSpeed: 10
+  - {fileID: -1450071527, guid: 5e80908cd508026418d48bb372d78a92, type: 3}
+  - {fileID: -1576511315, guid: 5e80908cd508026418d48bb372d78a92, type: 3}
+  - {fileID: -216833051, guid: 5e80908cd508026418d48bb372d78a92, type: 3}
+  - {fileID: 2093637881, guid: 5e80908cd508026418d48bb372d78a92, type: 3}
+  - {fileID: 486128158, guid: 5e80908cd508026418d48bb372d78a92, type: 3}
+  m_MinSpeed: 8
+  m_MaxSpeed: 8
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
