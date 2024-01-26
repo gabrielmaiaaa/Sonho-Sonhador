@@ -108132,6 +108132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 7586187817267482682, guid: a014b3dcf7d3b5d4c8f19f3de2ff4a6c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a4c9fec9cb4e94943830a436099c6d0e, type: 3}
     - target: {fileID: 8110945004751487997, guid: a014b3dcf7d3b5d4c8f19f3de2ff4a6c, type: 3}
       propertyPath: sceneName
       value: 5_
