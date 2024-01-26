@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d81efebeee7c14d4685393007632b834, type: 3}
-  m_Name: Test4
+  m_Name: 4Moeda
   m_EditorClassIdentifier: 
-  Name: Cube
-  Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  DefaultSprite: {fileID: 0}
+  Name: 4Moeda
+  Sprite: {fileID: 21300000, guid: 046f9c1b699c06542bcc5075ab3cac03, type: 3}
+  DefaultSprite: {fileID: 21300000, guid: ad1e35acaa5ddab49b49def842a6f89c, type: 3}
   ItemCollected: 0
   ItemPlaced: 0

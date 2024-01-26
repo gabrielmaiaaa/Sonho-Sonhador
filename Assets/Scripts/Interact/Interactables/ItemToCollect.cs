@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 public class ItemToCollect : MonoBehaviour, IInteractable
 {
     [SerializeField] private ItemSO itemSO;
     [SerializeField] private bool _canDelete = false;
+
+    public bool SetCanDelete(bool val) => _canDelete = val;
 
     private void Start()
     {
@@ -34,4 +37,8 @@ public class ItemToCollect : MonoBehaviour, IInteractable
     {
         ItensCollected.OnUpdateUI?.Invoke();
     }
+
+
+    public ItemSO GetItemSO() => itemSO; 
+
 }
