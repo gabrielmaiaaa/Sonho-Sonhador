@@ -11710,6 +11710,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -22.29
       objectReference: {fileID: 0}
+    - target: {fileID: 3872760100201092579, guid: 077c4ff28a730234dbbc87e0bd085fbe, type: 3}
+      propertyPath: itemPrefab
+      value: 
+      objectReference: {fileID: 7651975315338228799, guid: 0bc1d4df4cbd3614ba2400afbbc5222c, type: 3}
     - target: {fileID: 6389878392096985825, guid: 077c4ff28a730234dbbc87e0bd085fbe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -15565,7 +15569,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: a4c9fec9cb4e94943830a436099c6d0e, type: 3}
     - target: {fileID: 8110945004751487997, guid: a014b3dcf7d3b5d4c8f19f3de2ff4a6c, type: 3}
       propertyPath: sceneName
-      value: 1_VargasDeVdd
+      value: 5_Batata
       objectReference: {fileID: 0}
     - target: {fileID: 8158887954620066129, guid: a014b3dcf7d3b5d4c8f19f3de2ff4a6c, type: 3}
       propertyPath: m_LocalPosition.x
