@@ -8,6 +8,7 @@ public class Tela_Inicial : MonoBehaviour
     [SerializeField] private string Jogo;
     [SerializeField] private GameObject Credito;
     [SerializeField] private GameObject Configuracao;
+    [SerializeField] private GameObject Lore;
 
     public void Jogar()
     {
@@ -32,5 +33,10 @@ public class Tela_Inicial : MonoBehaviour
     public void SairDoJogo()
     {
         Application.Quit();
+    }
+
+    public void historia()
+    {
+        Lore.SetActive(true);
     }
 }
