@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ItensCollected : MonoBehaviour
 {
@@ -42,6 +43,8 @@ public class ItensCollected : MonoBehaviour
 
     private void Start()
     {
+        var allDone = true;
+
         for(int i = 0; i < transform.childCount; i++)
         {
             var child = transform.GetChild(i);
@@ -52,7 +55,15 @@ public class ItensCollected : MonoBehaviour
             }
 
             child.GetComponent<Image>().sprite = itensSO[i].Sprite;
+            if (!itensSO[i].ItemPlaced)
+                allDone = false;
         }
+
+        if (allDone)
+            SceneManager.LoadScene("Tela Inicial");
+
+
+
     }
 
 }
