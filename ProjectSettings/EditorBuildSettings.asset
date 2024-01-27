@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tela Inicial.unity
     guid: 8a13051dc135ed644ac94551da14166e
   - enabled: 1
+    path: Assets/Scenes/Main/1_VargasDeVdd.unity
+    guid: 8be93455ac9bfe346b870f688e6a2c20
+  - enabled: 1
     path: Assets/Scenes/Testes.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -18,9 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Tela de Morte.unity
     guid: cfa8239614ced62429a5263e07aa7573
   - enabled: 1
-    path: Assets/Scenes/Main/1_VargasDeVdd.unity
-    guid: 8be93455ac9bfe346b870f688e6a2c20
-  - enabled: 1
     path: Assets/Scenes/Main/2_thigo.unity
     guid: 66c91b9504cd7644eb0f27b3408fc08b
   - enabled: 1
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main/4_Malu.unity
     guid: 19c497468805f1c4ebe0bd99b6b5d2f4
+  - enabled: 1
+    path: Assets/Scenes/Main/5_Batata.unity
+    guid: 20ce029378954d04f8fc6d333caaea8f
   m_configObjects: {}

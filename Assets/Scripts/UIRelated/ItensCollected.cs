@@ -47,6 +47,8 @@ public class ItensCollected : MonoBehaviour
 
         for(int i = 0; i < transform.childCount; i++)
         {
+            if (!itensSO[i].ItemPlaced)
+                allDone = false;
             var child = transform.GetChild(i);
             if (!itensSO[i].ItemCollected)
             {
@@ -55,8 +57,7 @@ public class ItensCollected : MonoBehaviour
             }
 
             child.GetComponent<Image>().sprite = itensSO[i].Sprite;
-            if (!itensSO[i].ItemPlaced)
-                allDone = false;
+
         }
 
         if (allDone)
