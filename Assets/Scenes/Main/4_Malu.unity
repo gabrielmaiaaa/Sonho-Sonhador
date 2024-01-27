@@ -68103,6 +68103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1391404897865797514, guid: e9b7bb7427f3b854d865f57294da673b, type: 3}
+      propertyPath: m_Text
+      value: Sensibilidade
+      objectReference: {fileID: 0}
     - target: {fileID: 5103574704546157573, guid: e9b7bb7427f3b854d865f57294da673b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
